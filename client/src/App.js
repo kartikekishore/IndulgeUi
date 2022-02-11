@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { Container, Row, Col ,Button } from "reactstrap";
+import React  from "react";
+import { Landing, Home} from "./views";
 
 import {
   BrowserRouter as Router,
@@ -11,7 +11,12 @@ import {
 function App() {
   return (
     <div className="App">
-     <Button className='p-4 mt-4'>Hello</Button> 
+       <Router>
+       <Switch>
+       <Route path="/" exact component={Landing} />
+       <Route path="/home" exact component={Home} />
+       </Switch>
+     </Router>
     </div>
   );
 }
