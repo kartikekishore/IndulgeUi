@@ -1,0 +1,42 @@
+.home-main{
+    position: relative;
+}
+.side-bar-fixed{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #535E5A;
+    overflow-x: hidden;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.logo-side{
+    width: 80px;
+    padding-top:5px;
+}
+
+.common-margin{
+    margin-left: 165px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.home-card{
+    width:50vw;
+    height:10vh;
+    margin-left: 22vw;
+    color: #fff;
+    font-weight: 400;
+    background-color: #535E5A;
+}
+
+.profile-icon{
+    width:5vw;
+    height: 4vh;
+}
