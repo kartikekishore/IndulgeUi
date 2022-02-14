@@ -176,7 +176,7 @@ iframe {
 
 .wrap-login100 {
 
-  
+
   border-radius: 10px;
   overflow: hidden;
   justify-content: center;
@@ -207,7 +207,7 @@ iframe {
 /*------------------------------------------------------------------
 [  ]*/
 .login100-form {
-  width: 290px;
+  width: 400px;
 }
 
 .login100-form-title {
@@ -334,7 +334,9 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #57b846;
+  background: rgb(118,133,186);
+  background: linear-gradient(30deg, rgba(118,133,186,1) 0%, rgba(87,182,232,1) 98%);
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -370,9 +372,7 @@ iframe {
     width: 35%;
   }
 
-  .login100-form {
-    width: 50%;
-  }
+
 }
 
 @media (max-width: 768px) {
@@ -462,4 +462,77 @@ iframe {
 
     opacity: 1;
   }
+}
+
+.login-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+
+  align-items: center;
+
+
+
+}
+
+.login-container form{
+
+  background-color: white;
+  height: 450px;
+  padding: 50px;
+
+}
+.login-img-container{
+
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 300px;
+  height: 450px;
+  background: rgb(118,133,186);
+  background: linear-gradient(30deg, rgba(118,133,186,1) 0%, rgba(87,182,232,1) 98%);
+
+}
+.login-img-container p{
+
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: 'Poppins-regular';
+  text-align: left;
+  margin-left: 25px;
+  line-height: 1.8;
+
+  color: white;
+}
+.login-img-container p span{
+font-family: 'Poppins-Bold';
+font-size: 34px;
+font-weight: 500;
+line-height: 1.1;
+
+
+}
+.login-combined{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("images/iitism.jpeg");
+
+}
+body{
+  background-color: #fff;
+}
+.div-for-boxshadow{
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+@media (max-width:1000px) {
+  .login-img-container{
+    display: none;
+  }
+
 }
